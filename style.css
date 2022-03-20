@@ -1,0 +1,268 @@
+body{
+	font-family: libel_suitregular;
+}
+.card{
+	border-radius: 0px;
+}
+.container-fluid .nav-link-topBar{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 0px 20px 0px 20px;
+}
+.container-fluid .navbar-nav .btn{
+	margin-top: -5px;
+	margin-left: 2px;
+	font-weight: bold;
+
+}
+.container-fluid .navbar-collapse{
+	position: relative;
+	bottom:50px;
+}
+.container-fluid .nav-item .nav-link-topBar:hover{
+	color:#549acb;
+}
+.btn-quote{
+	background: transparent;
+	border-color: white;
+	border-radius: 10px;
+}
+.heading-title{
+	font-weight: bold;
+	margin-bottom: 30px;
+	
+}
+
+
+/*start of hero section text*/
+.heroSection1, .text1{
+	margin-top: 50px;
+	font-size: 2.5rem;
+	color: #1c72b7;
+}
+.heroSection2, .text2{
+	color: white;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.heroSection3, .text3{
+	color: white;
+	font-size: 1.2rem;
+}
+/*end of hero section text*/
+
+/*start of button of explorer*/
+.container-fluid, .heroSection, .btn{
+	align-items: center;
+}
+.herosection,.btn-design{
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	font-size: 0.6rem;
+	border: 2px solid white;
+
+}
+/*end of button of explorer*/
+
+
+/*start of section 02 services*/
+
+#services-section .card{
+	box-shadow: 2px 4px 8px rgb(0 0 0 / 16%);
+	margin-top: 10px;
+	height: 330px;
+}
+.container,.section02{
+	margin-top: 100px;
+}
+
+/*end of section 02*/
+
+.card-title{
+	text-align: left;
+	font-weight: bold;
+}
+.card-text{
+	text-align: left;
+}
+
+/*Start of portfolio section*/
+
+.nav-pills .nav-link.active{
+	border-radius: 0px;
+	background-color: #121444;
+}
+ .portfolio-container {
+  position: relative;
+  border: 1px solid grey;
+  width: 100%;
+  
+}
+
+.portfolio-image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,0,0,0.6);
+ 
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.portfolio-container:hover .portfolio-overlay {
+  height: 100%;
+}
+
+.portfolio-text{
+  color: white;
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+.portfolio-title{
+  text-align: center;
+  padding: 10px;
+  /*background-color: rgba(0,0,0,0.8);*/
+  background-color: #121444;
+  color: white;
+}
+
+
+/*End of portfolio section*/
+
+
+
+
+/*Start of team section*/
+
+.wrapper{
+      width: 100%;
+
+    }
+    .wrapper .carousel{
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 30px;
+    }
+    .carousel .card{
+      background-color: transparent;
+      line-height: 30px;
+      text-align: center;
+      color: black;
+      margin: 20px 0;
+
+      border-radius: 10px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    }
+    .carousel .card-1{
+      /*background-color: #ed1c24;*/
+    }
+    .carousel .card-2{
+      /*background-color: #0072bc;*/
+    }
+    .carousel .card-3{
+      /*background-color: #39b54a;*/
+    }
+    .carousel .card-4{
+      /*background-color: #f26522;*/
+    }
+    .carousel .card-5{
+      /*background-color: #630460;*/
+    }
+    .carousel .card-6{
+      /*background-color: #FFFF00;*/
+    }
+    .owl-dots{
+      text-align: center;
+      margin-top: 40px;
+    }
+    .owl-dot{
+      height: 15px;
+      width: 45px;
+      border-radius: 25px;
+      cursor: pointer;
+      outline: none;
+      margin: 0 5px;
+      border: 2px solid #0072bc !important;
+      transition: all 0.3s ease;
+    }
+    .owl-dot:hover,
+    .owl-dot.active{
+      background-color: #0072bc !important;
+    }
+    .team-icons{
+      padding-right: 25px;
+    }
+    .team-text{
+      padding-top: 10px;
+    }
+
+
+
+
+/*end of team section*/
+
+
+
+
+
+
+/*start of speciality section*/
+
+
+
+
+
+
+
+/*end of speciality section*/
+
+
+
+/*start of Description section*/
+.btn-quote-description{
+	border-radius: 10px;
+	background: transparent;
+	color: white;
+	border-color: white;
+	font-weight: bold;
+}
+/*end of Description section*/
+
+
+/*start of map section*/
+
+.google_Map{
+	width: 100%;
+}
+.map_Wrapper{
+	max-width: 700px;
+}
+/*end of map section*/
+
+
+/*start of footer section*/
+.footer-styling{
+	background-color: #121444;
+}
+/*end of footer section*/
